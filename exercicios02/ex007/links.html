@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /* SELETORES PERSONALIZADOS
+          #  = id
+          .  = class
+          :  = pseudo-class
+          :: = pseudo-element
+          > = children
+        */
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;    }
+        a:visited{
+            color:darkred
+        }
+        a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+        a:active{
+            color: rgb(17, 0, 255);
+        }
+        a::after{
+            content: '[link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+</style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.amazon.com.br/Gomets-Drops-Dori-Gomas-Sortidas/dp/B07XRZK129/ref=sr_1_2?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2GNZR2HMZ34ZV&keywords=jujuba&qid=1671541936&sprefix=jujuba%2Caps%2C287&sr=8-2" target="_blank">Jujuba</a></li>
+        <li><a href="https://www.amazon.com.br/Leite-Integral-Piracanjuba-Sabor-Outro/dp/B07CVPBTNM/ref=sr_1_5?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1R6TKWQ373CJK&keywords=leite&qid=1671541995&sprefix=lei%2Caps%2C565&sr=8-5&th=1" target="_blank">Leite</a></li>
+        <li><a href="https://www.amazon.com.br/Golden-Special-Adultos-Premier-Pet/dp/B07ZKLVV22/ref=sr_1_5?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=JRJ9CZH6N2Y4&keywords=ra%C3%A7%C3%A3o&qid=1671542112&sprefix=ra%C3%A7%C3%A3o%2Caps%2C417&sr=8-5&ufe=app_do%3Aamzn1.fos.6d798eae-cadf-45de-946a-f477d47705b9" target="_blank">Ração</a></li>
+    </ul>
+</body>
+</html>

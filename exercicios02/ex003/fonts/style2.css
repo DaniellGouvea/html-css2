@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Stora';
+    src: url('Stora.otf' ) format('opentype'), url('Stora.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    /*
+    Tipos de format()
+    -opentype (otf)
+    -truetyep (ttf)
+    -embedded-opentype
+    -truetype-aat (Apple Advanced Typography)
+    -svg
+    */
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-family: Stora, Helvetica, sans-serif;
+    font-size: 3em;
+    font-weight: normal;
+}

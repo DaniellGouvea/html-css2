@@ -9,7 +9,7 @@
     src: url('fonts/Stora-Light.otf') format('opentype'), url('fonts/Stora-Light.ttf') format('truetype');
 }
 @font-face {
-    font-family: Metallic;
+    font-family: 'Metallic';
     src: url('fonts/Metallic.ttf') format('truetype');
     font-weight: normal;
 }
